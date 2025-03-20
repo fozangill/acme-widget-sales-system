@@ -1,0 +1,29 @@
+# Composer
+/vendor/
+ composer.lock
+
+# PHPUnit
+/phpunit.result.cache
+/coverage/
+
+# Docker
+/.docker/
+/docker-compose.override.yml
+
+# IDE-specific files
+/.idea/
+/.vscode/
+
+# Logs and temporary files
+/logs/
+/tmp/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled or build artifacts
+/build/
+/dist/
