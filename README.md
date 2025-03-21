@@ -16,6 +16,11 @@ This is a PHP-based sales system for Acme Widget Co. It calculates the total cos
 ## Setup Instructions
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/acme-widget-sales-system.git
-   cd acme-widget-sales-system
+   **git clone https://github.com/your-username/acme-widget-sales-system.git**
+2. cd acme-widget-sales-system
+3. composer install
+4. docker-compose build
+5. docker-compose up
+
+## Run the code:
+php main.php
